@@ -1,0 +1,5 @@
+image: j2a2m2all/guix-gitpod-emacs:latest
+ports:
+  - port: 6080
+tasks:
+  - command: /opt/gnu/bin/emacs
