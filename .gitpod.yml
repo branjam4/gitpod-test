@@ -1,4 +1,4 @@
-image: j2a2m2all/guix-gitpod-emacs:latest
+image: j2a2m2all/guix-gitpod-doom-pre:latest
 ports:
   - port: 6080
 tasks:
