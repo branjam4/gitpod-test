@@ -1,0 +1,36 @@
+#+TITLE: Gitpod "Hello Emacs"
+
+I have a few "works on my machine" type projects in python and javascript that I'd like to reproduce and pair with others on improving. I've also set up some custom workflows within emacs that I'd like others outside of emacs to interact with, either through self-serving exploration, or interactive demos. But I didn't just want to share specific apps or emacs appliances, I also wanted to empower others to use said appliances, and potentially build their own. So instead of asking others to bring their environment to me and hope for the best, I've brought my environment to everyone, courtesy of Gitpod.io!
+* Setup
+** Requirements
++ a browser (Chrome, Firefox)
++ a GitHub/GitLab/BitBucket account
+** Quickstart
+Navigate to the following link in your browser:
+
+#+begin_src text
+https://gitpod.io/#https://github.com/branjam4/gitpod-test
+#+end_src
+
+The first access may take ~15 minutes, but follow-up accesses should be much
+faster, even when starting a fresh instance of the environment.
+** Post-Quickstart: Ephemeral Environment
+The environment you start with has a terminal at the bottom of the page, my
+public-facing emacs configuration on the right, and configuration options from
+gitpod on the left.
+
+The window with emacs open has a link at the top. Open this link in a new tab to
+have a "fullscreen" experience. When demonstrating workflows to others, you can
+either screen-share this tab or have the other person follow along with you
+using that link on their own browser!
+
+The temporary link is good for 30 minutes, but you can reset the countdown by
+going to the original gitpod.io tab and doing any kind of activity (clicking
+around, typing in the terminal, etc.).
+* Caveats
+This particular version of my environment is best for people familiar with [[https://github.com/hlissner/doom-emacs][Doom
+Emacs]], who want to poke around my environment and try out python/javascript code
+(for example, from a development blog showcasing the python pandas module). But
+one can make their own public repository and customize my =.gitpod.yml= file to
+run a command which can demo their code. This is my intention for future
+projects.
