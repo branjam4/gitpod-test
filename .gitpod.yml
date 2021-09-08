@@ -2,4 +2,4 @@ image: j2a2m2all/guix-gitpod-doom-node:latest
 ports:
   - port: 6080
 tasks:
-  - command: /opt/gnu/bin/emacs
+  - command: /opt/gnu/bin/emacs -fs
