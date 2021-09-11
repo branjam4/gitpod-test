@@ -1,5 +1,13 @@
 image: j2a2m2all/guix-gitpod-doom-node:latest
 ports:
   - port: 6080
+    onOpen: open-browser
+    visibility: public
 tasks:
-  - command: /opt/gnu/bin/emacs -fs
+  - name: emacs
+    init: /opt/gnu/bin/emacs -f all-the-icons-install-fonts
+    command: /opt/gnu/bin/emacs -fs README.org &
+github:
+  prebuilds:
+    branches: true
+    addBadge: true

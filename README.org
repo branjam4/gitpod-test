@@ -11,22 +11,6 @@ Navigate to the following link in your browser:
 #+begin_src text
 https://gitpod.io/#https://github.com/branjam4/gitpod-test
 #+end_src
-
-The first access may take ~15 minutes, but follow-up accesses should be much
-faster, even when starting a fresh instance of the environment.
-** Post-Quickstart: Ephemeral Environment
-The environment you start with has a terminal at the bottom of the page, my
-public-facing emacs configuration on the right, and configuration options from
-gitpod on the left.
-
-The window with emacs open has a link at the top. Open this link in a new tab to
-have a "fullscreen" experience. When demonstrating workflows to others, you can
-either screen-share this tab or have the other person follow along with you
-using that link on their own browser!
-
-The temporary link is good for 30 minutes, but you can reset the countdown by
-going to the original gitpod.io tab and doing any kind of activity (clicking
-around, typing in the terminal, etc.).
 * Caveats
 This particular version of my environment is best for people familiar with [[https://github.com/hlissner/doom-emacs][Doom
 Emacs]], who want to poke around my environment and try out python/javascript code
